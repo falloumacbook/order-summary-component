@@ -1,0 +1,134 @@
+/** @format */
+
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Red Hat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url(images/pattern-background-desktop.svg);
+	background-repeat: none;
+	background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border-radius: 10px;
+	width: 400px;
+	height: 540px;
+	background-color: white;
+}
+
+img {
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.text {
+	display: grid;
+	align-items: center;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.text h1 {
+	margin-bottom: 15px;
+}
+
+.text p {
+	color: hsl(224, 23%, 55%);
+	font-size: 16px;
+}
+
+.amount {
+	font-size: 18px;
+	font-weight: 100;
+	color: hsl(224, 23%, 55%);
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper {
+	width: 300px;
+	height: 75px;
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.wrapper h1 {
+	font-weight: 700;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.change {
+	color: hsl(245, 75%, 52%);
+	cursor: pointer;
+	padding-right: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.change:hover {
+	color: blue;
+}
+
+.music-icon {
+	width: 20%;
+	margin-left: 5%;
+}
+
+.Btn {
+	color: white;
+	background-color: hsl(245, 75%, 52%);
+	border: none;
+	width: 300px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 8px;
+	margin-top: 20px;
+	margin-left: 12%;
+	opacity: 1px;
+}
+
+.Btn:hover {
+	background-color: hsl(224, 23%, 55%);
+	cursor: pointer;
+	color: white;
+}
+
+.cancel-order {
+	text-align: center;
+	margin: 10px;
+}
+
+.cancel-order:hover {
+	color: hsl(223, 47%, 23%);
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+footer {
+	font-size: 15px;
+	margin-left: 3%;
+	margin-top: 10%;
+}
